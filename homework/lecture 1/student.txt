@@ -1,0 +1,3 @@
+student name: Robin Lemmers
+student number: 676949
+student class: inf1A 

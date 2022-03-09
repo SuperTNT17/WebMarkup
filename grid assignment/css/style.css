@@ -1,0 +1,37 @@
+header
+	{
+	grid-area: headerTag;
+	}
+nav
+	{
+	grid-area: navTag;
+	}
+section
+	{
+	grid-area: sectionTag;
+	}
+aside
+	{
+	grid-area: asideTag;
+	}
+footer
+	{
+	grid-area: footerTag;
+	}
+
+#grid-container
+	{
+	background-color: #F8F;
+	border: solid 10px #F0F;
+	padding: 10px;
+	
+	display: grid;
+	grid-gap: 10px;
+	
+	
+	/* 	#column1	#column2	#column3	#column4	#column5	#column6	*/
+	grid-template-areas:
+		'headerTag	headerTag	headerTag	headerTag	headerTag	headerTag	'
+		'navTag		sectionTag	sectionTag	sectionTag	sectionTag	navTag		'
+		'footerTag	footerTag	footerTag	footerTag	footerTag	footerTag	';
+	}
